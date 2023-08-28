@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --main: #c6488c;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Roboto Slab', serif; !important
+}
+/* styling header */
+.navbar{
+    background-color: var(--main);
+}
+.navbar-nav a{
+    gap: 10px;
+}
+.navbar-nav a{
+    font-size: 1.6rem;
+    color: white;
+}
+.navbar form input{
+    font-size: 1.6rem;
+}
+.navbar form button{
+    font-size: 1.6rem;
+    color: white;
+    outline: 1px solid white !important;
+    border: none;
+    
+}
+.navbar form button:hover{
+   background-color: black;
+}
+.nav-item .dropdown-menu{
+    background-color: var(--main);
+}
+
+/* styling header done */
+/* styling carousel */
+.carousel-item img{
+    height: 80vh;
+    object-fit: cover;
+}
+.carousel-control-prev i{
+    font-size: 4rem;
+    color: var(--main);
+}
+.carousel-control-next i{
+    font-size: 4rem;
+    color: var(--main);
+}
+.carousel-indicators .active{
+    background-color: var(--main) !important;
+}
+/* styling carousel done */
+/* styling content  */
+.cat p{
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.4);
+    color: white;
+    padding: 1% 0;
+    position: absolute;
+    width: 100%;
+    top: 88%;
+}
+.cat .card{
+    transition: 0.5s;
+}
+.cat .card:hover{
+    transform: scale(1.2);
+}
+.cat img{
+    height: 250px;
+    object-fit: cover;
+}
+.title{
+    font-size: 4rem;
+    margin: 5% auto;
+}
+.title::after{
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: var(--main);
+    width: 25%;
+    margin: 0 auto;
+}
+.feat img{
+    height: 250px;
+    object-fit: cover;
+}
+.feat h5{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+.feat p{
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.feat .featcat{
+    font-style: italic;
+    color: var(--main);
+    font-size: 1.5rem;
+}
+.feat .card{
+    box-shadow: 5px 5px 20px var(--main);
+    transition: 1s;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+.feat .card:hover{
+    transform: translateY(-20px);
+}
+.row .info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row .info .left{
+    flex-basis: 20%;
+}
+.row .info .right{
+    flex-basis: 80%;
+}
+.row .info i{
+    font-size: 40px;
+}
+.row .info h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.row .info p{
+    font-size: 1.5rem;
+}
+/* styling content done */
+
+/* styling footer */
+.foot{
+    background-color: var(--main);
+    padding: 3% 0 5%;
+}
+.foot .row{
+    width: 90%;
+    margin: 0 auto;
+}
+.foot h2{
+    font-size: 1.9rem;
+    text-transform: capitalize;
+    margin-bottom: 2%;
+}
+.foot img{
+    padding-top: 10%;
+}
+.foot a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.foot p{
+    font-size: 1.6rem;
+    color: white;
+}
+.foot  i{
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.foot i:hover{
+    color: black;
+}
+/* styling content done */
